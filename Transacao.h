@@ -13,8 +13,8 @@ private:
 	Pagamento pagamento;
 	time_t date;
 public:
-	Transacao(string id, Cliente cliente, Pagamento pagamento);
+	Transacao(int id, Cliente cliente, Pagamento pagamento);
 	void exibirTransacao() const;
-}
+};
 
-#ifndef
+#endif

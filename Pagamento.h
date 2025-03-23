@@ -14,6 +14,6 @@ public:
 	void processarPagamento();
 	void exibirPagamento() const;
 	string getStatus() const;
-}
+};
 
-#ifndef
+#endif

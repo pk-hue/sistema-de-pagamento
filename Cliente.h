@@ -10,12 +10,10 @@ private:
 	string cpf;
 	string email;
 	string telefone;
-	
-		
 public:
-	CLiente(string nome, string cpf, string email, string telefone);
+	Cliente(string nome, string cpf, string email, string telefone);
 	void exibirDados() const;
 	string getCPF() const;
-}
+};
 
 #endif
