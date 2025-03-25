@@ -10,7 +10,9 @@ private:
 	double valor;
 	string status;
 public:
-	Pagamento(string metodo, double valor);
+	Pagamento();
+	void solicitarValor();
+    double getValor() const;
 	void processarPagamento();
 	void exibirPagamento() const;
 	string getStatus() const;
