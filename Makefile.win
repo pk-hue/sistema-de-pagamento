@@ -4,8 +4,8 @@
 CPP      = g++.exe
 CC       = gcc.exe
 WINDRES  = windres.exe
-OBJ      = main.o Cliente.o Pagamento.o Transacao.o SistemaPagamento.o
-LINKOBJ  = main.o Cliente.o Pagamento.o Transacao.o SistemaPagamento.o
+OBJ      = main.o Cliente.o Pagamento.o Transacao.o SistemaPagamento.o SistemaDeLogin.o
+LINKOBJ  = main.o Cliente.o Pagamento.o Transacao.o SistemaPagamento.o SistemaDeLogin.o
 LIBS     = -L"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/lib" -L"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/x86_64-w64-mingw32/lib" -static-libgcc
 INCS     = -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/include" -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/9.2.0/include"
 CXXINCS  = -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/include" -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/9.2.0/include" -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++"
@@ -38,3 +38,6 @@ Transacao.o: Transacao.cpp
 
 SistemaPagamento.o: SistemaPagamento.cpp
 	$(CPP) -c SistemaPagamento.cpp -o SistemaPagamento.o $(CXXFLAGS)
+
+SistemaDeLogin.o: SistemaDeLogin.cpp
+	$(CPP) -c SistemaDeLogin.cpp -o SistemaDeLogin.o $(CXXFLAGS)
