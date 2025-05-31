@@ -19,18 +19,16 @@ Este projeto é um sistema de pagamento desenvolvido em **C++**, com o objetivo 
 
 ## 📁 Estrutura do Projeto
 
-sistema-pagamento/
+💡 Tecnologias e Conceitos Usados
+🧠 C++ moderno (C++20)
 
-├── include/ # Arquivos de cabeçalho (.h)
+🧱 Programação orientada a objetos (POO)
 
-├── src/ # Implementações (.cpp)
+🗃️ Manipulação de arquivos
 
-├── data/ # Arquivos de dados (ex: .txt, .csv, binário)
+🔁 Estrutura modularizada
 
-├── main.cpp # Arquivo principal
-
-└── README.md # Este arquivo
-
+📐 Boas práticas de codificação
 
 ---
 
