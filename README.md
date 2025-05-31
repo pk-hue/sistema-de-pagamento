@@ -20,6 +20,7 @@ Este projeto é um sistema de pagamento desenvolvido em **C++**, com o objetivo 
 ## 📁 Estrutura do Projeto
 
 sistema-pagamento/
+
 ├── include/ # Arquivos de cabeçalho (.h)
 
 ├── src/ # Implementações (.cpp)
