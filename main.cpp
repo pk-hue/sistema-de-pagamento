@@ -60,8 +60,6 @@ int main(){
 //					cout << "Todas as transacoes" << "\n";
 //					sistema.listarTransacoes();
 					
-					//-------------------------------------------------------------------------------
-					
                 } else {
                     cout << "\nCPF ou senha incorretos.\n";
                 }

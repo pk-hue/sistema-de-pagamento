@@ -21,7 +21,7 @@ double Pagamento::getValor() const {
 }
 
 void Pagamento::processarPagamento(){
-	status = (valor <= 1000) ? "Aprovado" : "Recusado";
+	status = (valor >= 1000) ? "Aprovado" : "Recusado";
 	int opcao;
 	
 	do{
