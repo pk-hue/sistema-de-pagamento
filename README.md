@@ -21,9 +21,13 @@ Este projeto é um sistema de pagamento desenvolvido em **C++**, com o objetivo 
 
 sistema-pagamento/
 ├── include/ # Arquivos de cabeçalho (.h)
+
 ├── src/ # Implementações (.cpp)
+
 ├── data/ # Arquivos de dados (ex: .txt, .csv, binário)
+
 ├── main.cpp # Arquivo principal
+
 └── README.md # Este arquivo
 
 
