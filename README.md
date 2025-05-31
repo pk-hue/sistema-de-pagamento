@@ -19,3 +19,28 @@ Este projeto é um sistema de pagamento desenvolvido em **C++**, com o objetivo 
 
 ## 📁 Estrutura do Projeto
 
+sistema-pagamento/
+├── include/ # Arquivos de cabeçalho (.h)
+├── src/ # Implementações (.cpp)
+├── data/ # Arquivos de dados (ex: .txt, .csv, binário)
+├── main.cpp # Arquivo principal
+└── README.md # Este arquivo
+
+
+---
+
+## ✅ Requisitos
+
+- Compilador C++ com suporte a **C++20** ou superior
+- Sistema operacional: Windows ou Linux
+- IDE recomendada: Dev-C++, Visual Studio Code, ou Neovim
+
+---
+
+## 🧪 Como Compilar e Executar
+
+### Usando `g++` no terminal:
+
+```bash
+g++ -std=c++20 -Iinclude src/*.cpp main.cpp -o sistema_pagamento
+./sistema_pagamento
