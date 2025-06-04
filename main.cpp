@@ -52,13 +52,10 @@ int main(){
                     cliente->exibirDados();
                     system("pause");
                     system("cls");
-                    //implementar restante do projeto
                     SistemaPagamento sistema;
                     Pagamento pagamento1;
                     pagamento1.solicitarValor();	
 					sistema.novaTransacao(*cliente, pagamento1);
-//					cout << "Todas as transacoes" << "\n";
-//					sistema.listarTransacoes();
 					
                 } else {
                     cout << "\nCPF ou senha incorretos.\n";

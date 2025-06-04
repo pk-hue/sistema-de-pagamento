@@ -32,8 +32,6 @@ Cliente* SistemaDeLogin::autenticarCliente(string cpf, string senha){
 		cout << "comparando..." << "\n";
 		cout << "CPF informado: " << cpf << "\n";
 		cout << "CPF do cliente: " << cliente.getCPF() << "\n";
-		cout << "SENHA informada: " << senha << "\n";
-		// criptografar senhar para comparação!!!
 		
 		if(cliente.autenticar(cpf, senha)){
 			return &cliente;
