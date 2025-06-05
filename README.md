@@ -40,6 +40,7 @@ Este projeto é um sistema de pagamento desenvolvido em **C++**, com o objetivo 
 
 ---
 
+
 ## 🧪 Como Compilar e Executar
 
 ### Usando `g++` no terminal:
